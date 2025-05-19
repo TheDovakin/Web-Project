@@ -2,20 +2,107 @@ header {
     background-image: url('../image/header_banner.png');
     background-size: cover; 
     background-position: center;
-    height: 200px;
+    height: auto; /* autorise la hauteur à s’adapter au contenu */
     width: 100%;
-    position: relative;
     display: flex;
+    flex-direction: column; /* ✅ empile le titre + nav */
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 2em;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
     font-family: 'Arial', sans-serif;
     text-align: center;
-    padding: 20px;
+    padding: 40px 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 0;
+    margin: 0;
+    gap: 20px; /* espace entre titre et nav */
+}
+
+.site-title {
+    font-size: 3em;
+    margin: 0;
+}
+
+body {
+    
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #144a79;
+    background-size: cover;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(178, 235, 242, 0.9); /* transparent bleu */
     border-radius: 10px;
-    margin: 20px 0;
-    transition: transform 0.3s ease;
+    padding: 10px 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #004d60;
+    font-weight: bold;
+    padding: 12px 18px;
+    background-color: #b2ebf2;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 40px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.section {
+    margin-bottom: 60px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.text {
+    flex: 1;
+    min-width: 250px;
+}
+
+.image {
+    flex: 1;
+    min-width: 250px;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.quiz-button {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    display: block;
+    margin: 40px auto 0;
+    transition: background 0.3s;
+}
+
+.quiz-button:hover {
+    background-color: #1769aa;
 }
