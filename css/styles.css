@@ -24,12 +24,11 @@ header {
     margin: 0;
 }
 
-body {
-    
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #144a79;
+body, #content {
+    background-image: url('../image/bg_home.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
+    background-color: #144a79;
     color: white;
 }
 
@@ -105,4 +104,366 @@ h2 {
 
 .quiz-button:hover {
     background-color: #1769aa;
+<<<<<<< Updated upstream
+=======
+}
+
+
+/* Home Page Only */
+#home {
+    background-image: url('../image/bg_home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home-main {
+    max-width: 800px;
+    margin: 40px auto;
+    background: rgba(144, 178, 201, 0.85);
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+    font-size: 1.15em;
+}
+
+#home-main ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#home-main blockquote {
+    font-style: italic;
+    color: #1a4a6a;
+    border-left: 4px solid #1a4a6a;
+    margin: 24px 0 0 0;
+    padding-left: 16px;
+}
+
+#baleine {
+  position: absolute;
+  width: 150px;
+  z-index: 1000;
+  display: none;
+  transition: transform 1s;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+@keyframes swim-left {
+  from {
+    left: 100%;
+    transform: scaleX(-1);
+  }
+  to {
+    left: -200px;
+    transform: scaleX(-1);
+  }
+}
+
+@keyframes swim-right {
+  from {
+    left: -200px;
+    transform: scaleX(1);
+  }
+  to {
+    left: 100%;
+    transform: scaleX(1);
+  }
+  
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cartes par ligne */
+  gap: 48px 40px; /* plus d'espace entre les cartes */
+  padding: 40px 0;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card {
+  perspective: 1000px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 12px; /* espace horizontal supplémentaire entre les cartes */
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 260px;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Désactivé : plus de flip au hover */
+/* .card:hover .card-inner {
+  transform: rotateY(180deg);
+} */
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1em;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.card-front {
+  background: #0077b6;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.card-back {
+  background: #023e8a;
+  transform: rotateY(180deg);
+}
+
+.card-front-img {
+  width: 140%;
+  height: 140%;
+  object-fit: cover;
+  position: absolute;
+  top: -20%;
+  left: -20%;
+  border-radius: 10px;
+  z-index: 0;
+}
+
+.card-emoji {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+  font-size: 4.5em;
+  z-index: 2;
+  pointer-events: none;
+  text-shadow: 0 4px 18px #023e8a, 0 0 12px #000, 0 0 2px #fff;
+  filter: drop-shadow(0 2px 8px #000a);
+  user-select: none;
+}
+
+.card-back-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  z-index: 0;
+}
+
+.card-back-content {
+  position: relative;
+  z-index: 1;
+}
+
+/* Algues animées en bas de page */
+footer {
+  position: relative;
+  background: none;
+  min-height: 60px;
+  padding-bottom: 0;
+  margin-top: 40px;
+  overflow: visible;
+  box-shadow: none;
+}
+#seaweed-container {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 260px;
+  pointer-events: none;
+  z-index: 10000;
+  display: block;
+  margin: 0;
+  background: none;
+}
+.seaweed {
+  position: absolute;
+  bottom: -60px; /* base bien masquée sous la fenêtre */
+  will-change: transform;
+  height: 220px;
+  user-select: none;
+  pointer-events: none;
+}
+#seaweed-container {
+  position: relative;
+  width: 100%;
+  height: 160px;
+  margin-top: 40px;
+  margin-bottom: -30px;
+  pointer-events: none;
+  z-index: 2;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.seaweed {
+  position: absolute;
+  bottom: 0;
+  will-change: transform;
+  height: 140px;
+  user-select: none;
+  pointer-events: none;
+}
+.seaweed-bubble {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(173, 216, 230, 0.8);
+  pointer-events: none;
+  z-index: 20;
+  box-shadow: 0 0 8px 2px rgba(173,216,230,0.3);
+  transition: opacity 0.3s;
+}
+/* Pour que les algues se superposent joliment */
+/* On laisse la superposition naturelle par positionnement aléatoire */
+
+.hero {
+  background: rgba(0, 60, 120, 0.55);
+  border-radius: 18px;
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.18);
+  padding: 36px 24px 28px 24px;
+  margin: 36px auto 32px auto;
+  max-width: 600px;
+  text-align: center;
+  color: #e0f7fa;
+  border: 2px solid rgba(0, 119, 182, 0.25);
+  position: relative;
+  overflow: hidden;
+}
+.hero h1 {
+  font-size: 2.8em;
+  margin-bottom: 10px;
+  color: #fff;
+  letter-spacing: 2.5px;
+  text-shadow: 0 2px 18px #0a2233, 0 0 24px #2196f3;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  font-weight: 700;
+  background: linear-gradient(90deg, #00c6fb 0%, #005bea 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero p {
+  font-size: 1.22em;
+  margin: 14px 0 0 0;
+  color: #b2ebf2;
+  text-shadow: 0 1px 8px #0a2233, 0 0 8px #2196f3;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.hero p:last-child {
+  font-size: 1.08em;
+  color: #fffde4;
+  font-style: italic;
+  margin-top: 10px;
+  letter-spacing: 0.5px;
+  text-shadow: 0 1px 10px #2196f3, 0 0 8px #0a2233;
+}
+.hero::after {
+  content: '';
+  position: absolute;
+  left: -60px;
+  bottom: -60px;
+  width: 180px;
+  height: 180px;
+  background: radial-gradient(circle, #00c6fb55 0%, transparent 80%);
+  z-index: 0;
+  pointer-events: none;
+}
+.hero * { position: relative; z-index: 1; }
+
+.card-widget-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(10, 30, 60, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+  transition: opacity 0.3s;
+}
+.card-widget-content {
+  background: #e0f7fa;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.25);
+  padding: 36px 32px 28px 32px;
+  min-width: 320px;
+  max-width: 90vw;
+  max-height: 80vh;
+  color: #023e8a;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: widget-pop 0.3s cubic-bezier(.5,1.8,.5,1.2);
+  z-index: 100000;
+}
+.card-widget-close {
+  position: absolute;
+  top: 12px;
+  right: 18px;
+  background: none;
+  border: none;
+  font-size: 2em;
+  color: #0077b6;
+  cursor: pointer;
+  z-index: 2;
+}
+.card-widget-body {
+  margin-top: 18px;
+  font-size: 1.18em;
+  text-align: center;
+}
+@keyframes widget-pop {
+  0% { transform: scale(0.7); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.card.zoomed {
+  z-index: 30000;
+  transform: scale(1.18) !important;
+  transition: transform 0.35s cubic-bezier(.5,1.8,.5,1.2), z-index 0s;
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.25), 0 0 0 8px #00c6fb55;
+}
+.card.zoomed .card-inner {
+  /* Prevent further transform on .card-inner */
+  pointer-events: none;
+}
+
+.modal-animal-img {
+  display: block;
+  max-width: 120px;
+  max-height: 120px;
+  margin: 0 auto 18px auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.10);
+  background: #fff;
+>>>>>>> Stashed changes
 }
