@@ -1,0 +1,102 @@
+/* Quiz Page Styles */
+#quiz-main {
+    max-width: 700px;
+    margin: 40px auto;
+    background: rgba(255,255,255,0.92);
+    padding: 36px 28px 32px 28px;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.13);
+    color: #1a4a6a;
+    font-size: 1.13em;
+}
+
+#quiz-main h1 {
+    color: #1769aa;
+    font-size: 2.2em;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+}
+
+#quiz-main form {
+    margin-top: 24px;
+}
+
+.quiz-question {
+    background: #e3f2fd;
+    border-radius: 12px;
+    padding: 22px 18px 18px 18px;
+    margin-bottom: 28px;
+    box-shadow: 0 2px 8px rgba(33,150,243,0.07);
+    color: #0d3556;
+}
+
+.quiz-question h2 {
+    font-size: 1.18em;
+    margin: 0 0 12px 0;
+    color: #1769aa;
+}
+
+.quiz-question label {
+    display: block;
+    margin-bottom: 7px;
+    cursor: pointer;
+    font-size: 1em;
+    padding-left: 4px;
+    transition: background 0.2s;
+}
+
+.quiz-question input[type="radio"] {
+    accent-color: #2196f3;
+    margin-right: 7px;
+}
+
+.quiz-question button {
+    background: #2196f3;
+    color: white;
+    border: none;
+    padding: 10px 28px;
+    border-radius: 7px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 16px;
+    transition: background 0.3s;
+}
+.quiz-question button:hover {
+    background: #1769aa;
+}
+
+#quiz-main #quiz-intro {
+    text-align: center;
+    padding: 30px 10px 10px 10px;
+}
+
+#quiz-main #start-quiz-btn {
+    background: #2196f3;
+    color: white;
+    border: none;
+    padding: 15px 38px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: background 0.3s;
+    box-shadow: 0 2px 8px rgba(33,150,243,0.10);
+}
+#quiz-main #start-quiz-btn:hover {
+    background: #1769aa;
+}
+
+#quiz-result {
+    background: #e3f2fd;
+    border-radius: 12px;
+    padding: 22px 18px 18px 18px;
+    margin-top: 32px;
+    color: #0d3556;
+    box-shadow: 0 2px 8px rgba(33,150,243,0.07);
+}
+
+.quiz-result-block {
+    margin-bottom: 18px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #b3e5fc;
+}
