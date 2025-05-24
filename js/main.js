@@ -1,3 +1,19 @@
+// Change the color of the background based on the position on the page
+document.addEventListener('scroll', function () {
+    // Get scroll position and document height
+    const scrollTop = window.scrollY || document.documentElement.scrollTop;
+    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    // Calculate scroll percentage (0 at top, 1 at bottom)
+    let percent = docHeight > 0 ? scrollTop / docHeight : 0;
+    percent = Math.max(0, Math.min(1, percent));
+    // Interpolate between two colors (light blue to dark blue)
+    // Light: rgb(173,216,230), Dark: rgb(10,30,60)
+    const r = Math.round(173 + (10 - 173) * percent);
+    const g = Math.round(216 + (30 - 216) * percent);
+    const b = Math.round(230 + (60 - 230) * percent);
+    document.body.style.backgroundColor = `rgb(${r},${g},${b})`;
+});
+
 // Bubble transition effect on link click
 document.addEventListener('DOMContentLoaded', function () {
     const links = document.querySelectorAll('nav a');
@@ -52,4 +68,8 @@ function createBubbles(callback) {
         bubbleContainer.remove();
         if (callback) callback();
     }, 1100);
+
+    
 }
+
+
