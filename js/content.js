@@ -1,5 +1,5 @@
 
-// 🐋 Whale animation setup UNIQUEMENT sur Content.html
+// Whale animation setup UNIQUEMENT sur Content.html
 if (window.location.pathname.endsWith('/Content.html') || window.location.pathname.endsWith('Content.html')) {
     document.addEventListener('DOMContentLoaded', function () {
         const whale = document.createElement('img');
@@ -26,7 +26,7 @@ if (window.location.pathname.endsWith('/Content.html') || window.location.pathna
             }
         });
 
-        // 🐢 Ajout de la tortue luth animée
+        // Ajout de la tortue luth animée
         const turtle = document.createElement('img');
         turtle.src = '../image/TortueLuth.png';
         turtle.id = 'tortue-luth';
@@ -51,7 +51,7 @@ if (window.location.pathname.endsWith('/Content.html') || window.location.pathna
             }
         });
 
-        // 🐟 Ajout du poisson Napoléon animé
+        // Ajout du poisson Napoléon animé
         const napoleon = document.createElement('img');
         napoleon.src = '../image/NapoleonFish.png';
         napoleon.id = 'napoleon-fish';
@@ -77,7 +77,7 @@ if (window.location.pathname.endsWith('/Content.html') || window.location.pathna
         });
     });
 
-    // 🐳 Animation de passage de la baleine avec nage
+    // Animation de passage de la baleine avec nage
     function launchWhale() {
         const whale = document.getElementById('baleine');
         const direction = Math.random() < 0.5 ? 'left' : 'right';
@@ -113,7 +113,7 @@ if (window.location.pathname.endsWith('/Content.html') || window.location.pathna
         }, 10000);
     }
 
-    // 🐢 Animation de passage de la tortue luth
+    // Animation de passage de la tortue luth
     function launchTurtle() {
         const turtle = document.getElementById('tortue-luth');
         const direction = Math.random() < 0.5 ? 'left' : 'right';
@@ -148,7 +148,7 @@ if (window.location.pathname.endsWith('/Content.html') || window.location.pathna
         }, 14000);
     }
 
-    // 🐟 Animation de passage du poisson Napoléon
+    // Animation de passage du poisson Napoléon
     function launchNapoleon() {
         const napoleon = document.getElementById('napoleon-fish');
         const direction = Math.random() < 0.5 ? 'left' : 'right';
@@ -216,7 +216,7 @@ if (window.location.pathname.endsWith('/Content.html') || window.location.pathna
     }
 }
 
-// 🌿 Ajout d'algues animées en bas de page sur Content.html
+// Ajout d'algues animées en bas de page sur Content.html
 if (
   window.location.pathname.endsWith('/Content.html') ||
   window.location.pathname.endsWith('Content.html')
@@ -252,7 +252,7 @@ if (
   });
 }
 
-// 🌱 Génération de petites bulles qui sortent des algues
+// Génération de petites bulles qui sortent des algues
 function spawnSeaweedBubbles() {
     const seaweedContainer = document.getElementById('seaweed-container');
     if (!seaweedContainer) return;
@@ -399,7 +399,7 @@ function createBubbles(callback) {
 
 
 
-// 🐋 Whale animation setup UNIQUEMENT sur Content.html
+// Whale animation setup UNIQUEMENT sur Content.html
 if (window.location.pathname.endsWith('/Content.html') || window.location.pathname.endsWith('Content.html')) {
     document.addEventListener('DOMContentLoaded', function () {
         const whale = document.createElement('img');
@@ -426,7 +426,7 @@ if (window.location.pathname.endsWith('/Content.html') || window.location.pathna
             }
         });
 
-        // 🐢 Ajout de la tortue luth animée
+        //  Ajout de la tortue luth animée
         const turtle = document.createElement('img');
         turtle.src = '../image/TortueLuth.png';
         turtle.id = 'tortue-luth';
@@ -451,7 +451,7 @@ if (window.location.pathname.endsWith('/Content.html') || window.location.pathna
             }
         });
 
-        // 🐟 Ajout du poisson Napoléon animé
+        //  Ajout du poisson Napoléon animé
         const napoleon = document.createElement('img');
         napoleon.src = '../image/NapoleonFish.png';
         napoleon.id = 'napoleon-fish';
@@ -477,7 +477,7 @@ if (window.location.pathname.endsWith('/Content.html') || window.location.pathna
         });
     });
 
-    // 🐳 Animation de passage de la baleine avec nage
+    //  Animation de passage de la baleine avec nage
     function launchWhale() {
         const whale = document.getElementById('baleine');
         const direction = Math.random() < 0.5 ? 'left' : 'right';
@@ -513,7 +513,7 @@ if (window.location.pathname.endsWith('/Content.html') || window.location.pathna
         }, 10000);
     }
 
-    // 🐢 Animation de passage de la tortue luth
+    //  Animation de passage de la tortue luth
     function launchTurtle() {
         const turtle = document.getElementById('tortue-luth');
         const direction = Math.random() < 0.5 ? 'left' : 'right';
@@ -548,7 +548,7 @@ if (window.location.pathname.endsWith('/Content.html') || window.location.pathna
         }, 14000);
     }
 
-    // 🐟 Animation de passage du poisson Napoléon
+    //  Animation de passage du poisson Napoléon
     function launchNapoleon() {
         const napoleon = document.getElementById('napoleon-fish');
         const direction = Math.random() < 0.5 ? 'left' : 'right';
@@ -616,7 +616,7 @@ if (window.location.pathname.endsWith('/Content.html') || window.location.pathna
     }
 }
 
-// 🌿 Ajout d'algues animées en bas de page sur Content.html
+//  Ajout d'algues animées en bas de page sur Content.html
 if (
   window.location.pathname.endsWith('/Content.html') ||
   window.location.pathname.endsWith('Content.html')
@@ -652,7 +652,7 @@ if (
   });
 }
 
-// 🌱 Génération de petites bulles qui sortent des algues
+//  Génération de petites bulles qui sortent des algues
 function spawnSeaweedBubbles() {
     const seaweedContainer = document.getElementById('seaweed-container');
     if (!seaweedContainer) return;
@@ -800,7 +800,7 @@ function createBubbles(callback) {
 
 
 
-// 🐋 Whale animation setup UNIQUEMENT sur Content.html
+//  Whale animation setup UNIQUEMENT sur Content.html
 if (window.location.pathname.endsWith('/Content.html') || window.location.pathname.endsWith('Content.html')) {
     document.addEventListener('DOMContentLoaded', function () {
         const whale = document.createElement('img');
@@ -827,7 +827,7 @@ if (window.location.pathname.endsWith('/Content.html') || window.location.pathna
             }
         });
 
-        // 🐢 Ajout de la tortue luth animée
+        //  Ajout de la tortue luth animée
         const turtle = document.createElement('img');
         turtle.src = '../image/TortueLuth.png';
         turtle.id = 'tortue-luth';
@@ -852,7 +852,7 @@ if (window.location.pathname.endsWith('/Content.html') || window.location.pathna
             }
         });
 
-        // 🐟 Ajout du poisson Napoléon animé
+        //  Ajout du poisson Napoléon animé
         const napoleon = document.createElement('img');
         napoleon.src = '../image/NapoleonFish.png';
         napoleon.id = 'napoleon-fish';
@@ -878,7 +878,7 @@ if (window.location.pathname.endsWith('/Content.html') || window.location.pathna
         });
     });
 
-    // 🐳 Animation de passage de la baleine avec nage
+    //  Animation de passage de la baleine avec nage
     function launchWhale() {
         const whale = document.getElementById('baleine');
         const direction = Math.random() < 0.5 ? 'left' : 'right';
@@ -914,7 +914,7 @@ if (window.location.pathname.endsWith('/Content.html') || window.location.pathna
         }, 10000);
     }
 
-    // 🐢 Animation de passage de la tortue luth
+    //  Animation de passage de la tortue luth
     function launchTurtle() {
         const turtle = document.getElementById('tortue-luth');
         const direction = Math.random() < 0.5 ? 'left' : 'right';
@@ -949,7 +949,7 @@ if (window.location.pathname.endsWith('/Content.html') || window.location.pathna
         }, 14000);
     }
 
-    // 🐟 Animation de passage du poisson Napoléon
+    //  Animation de passage du poisson Napoléon
     function launchNapoleon() {
         const napoleon = document.getElementById('napoleon-fish');
         const direction = Math.random() < 0.5 ? 'left' : 'right';
@@ -1017,7 +1017,7 @@ if (window.location.pathname.endsWith('/Content.html') || window.location.pathna
     }
 }
 
-// 🌿 Ajout d'algues animées en bas de page sur Content.html
+// Ajout d'algues animées en bas de page sur Content.html
 if (
   window.location.pathname.endsWith('/Content.html') ||
   window.location.pathname.endsWith('Content.html')
@@ -1053,7 +1053,7 @@ if (
   });
 }
 
-// 🌱 Génération de petites bulles qui sortent des algues
+//  Génération de petites bulles qui sortent des algues
 function spawnSeaweedBubbles() {
     const seaweedContainer = document.getElementById('seaweed-container');
     if (!seaweedContainer) return;

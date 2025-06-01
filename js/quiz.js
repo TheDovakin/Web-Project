@@ -1,59 +1,112 @@
-// Quiz data
+// Quiz data (from quiz.txt)
 const quizData = [
     {
-        question: "Which of the following is the biggest source of ocean plastic pollution?",
+        question: "What percentage of Earth’s surface is covered by oceans?",
         options: [
-            "A) Fishing nets",
-            "B) Plastic bags",
-            "C) Plastic bottles",
-            "D) Microplastics from clothing"
+            "A) About 50%",
+            "B) About 60%",
+            "C) Over 70%",
+            "D) Over 90%"
+        ],
+        answer: "C",
+        explanation: "Oceans cover over 70% of Earth's surface, making them the planet’s largest ecosystem."
+    },
+    {
+        question: "Which critically endangered marine mammal lives only in the northern part of the Gulf of California and has fewer than 10 individuals remaining?",
+        options: [
+            "A) Southern sea otter",
+            "B) Vaquita",
+            "C) Blue whale",
+            "D) Hawksbill turtle"
         ],
         answer: "B",
-        explanation: "While all options contribute, plastic bags are among the most common items found in ocean cleanups and are extremely harmful to marine animals who often mistake them for food."
+        explanation: "The vaquita is the world’s most endangered marine mammal, found only in the northern Gulf of California."
     },
     {
-        question: "What percentage of the Earth’s surface is covered by oceans?",
+        question: "True or False: Oceans absorb about 90% of the excess heat caused by climate change.",
         options: [
-            "A) 50%",
-            "B) 60%",
-            "C) 70%",
-            "D) 80%"
+            "A) True",
+            "B) False"
         ],
-        answer: "C",
-        explanation: "Oceans cover around 71% of the Earth's surface, making them the planet’s largest ecosystem."
+        answer: "A",
+        explanation: "Oceans absorb about 90% of the excess heat from climate change, helping to regulate the planet’s temperature."
     },
     {
-        question: "Which of these marine animals is critically endangered?",
+        question: "What makes the scalloped hammerhead shark especially vulnerable to overfishing?",
         options: [
-            "A) Clownfish",
-            "B) Blue Whale",
-            "C) Hawksbill Sea Turtle",
-            "D) Great White Shark"
+            "A) It travels alone",
+            "B) Its fins are highly valued in the shark fin trade",
+            "C) It is very slow",
+            "D) It nests near the shore"
         ],
-        answer: "C",
-        explanation: "Hawksbill turtles are critically endangered due to illegal shell trade, habitat loss, and plastic pollution."
+        answer: "B",
+        explanation: "Scalloped hammerhead shark fins are highly valued in the shark fin trade, making them a frequent target for overfishing."
     },
     {
-        question: "What is coral bleaching primarily caused by?",
+        question: "Which of the following is a major threat to hawksbill sea turtles?",
         options: [
-            "A) Overfishing",
-            "B) Plastic pollution",
-            "C) Rising ocean temperatures",
+            "A) Whale hunting",
+            "B) Coral bleaching",
+            "C) Illegal trade of their shell for jewelry",
             "D) Noise pollution"
         ],
         answer: "C",
-        explanation: "Climate change leads to warmer oceans, which causes corals to expel the algae they depend on, turning white — a phenomenon called coral bleaching."
+        explanation: "Hawksbill turtles are critically endangered mainly due to the illegal trade of their beautiful shells for jewelry."
     },
     {
-        question: "By what year could there be more plastic than fish in the ocean (by weight), if no action is taken?",
+        question: "Which ocean issue occurs when ships, sonar, and industrial noise disturb whales and dolphins?",
         options: [
-            "A) 2040",
-            "B) 2050",
-            "C) 2070",
-            "D) 2100"
+            "A) Thermal pollution",
+            "B) Noise pollution",
+            "C) Algae blooms",
+            "D) Coral bleaching"
         ],
         answer: "B",
-        explanation: "According to a report by the Ellen MacArthur Foundation, by 2050, plastic could outweigh fish in the ocean if current trends continue."
+        explanation: "Noise pollution from ships and sonar can disturb and even harm whales and dolphins."
+    },
+    {
+        question: "Which intelligent marine animal can reach a wingspan of 7 meters and is often caught accidentally in fishing nets?",
+        options: [
+            "A) Blue whale",
+            "B) Scalloped hammerhead shark",
+            "C) Giant manta ray",
+            "D) Vaquita"
+        ],
+        answer: "C",
+        explanation: "The giant manta ray can reach a wingspan of 7 meters and is often caught as bycatch in fishing nets."
+    },
+    {
+        question: "How do sea otters, one of the few non-human animals to use tools, crack open shellfish?",
+        options: [
+            "A) With their teeth",
+            "B) By slamming them on the seabed",
+            "C) Using rocks",
+            "D) With their tails"
+        ],
+        answer: "C",
+        explanation: "Sea otters use rocks as tools to crack open shellfish on their bellies."
+    },
+    {
+        question: "What role do oceans play in regulating Earth’s climate?",
+        options: [
+            "A) They cool down the poles",
+            "B) They reflect sunlight",
+            "C) They store CO₂ and absorb heat",
+            "D) They create wind currents"
+        ],
+        answer: "C",
+        explanation: "Oceans store carbon dioxide and absorb heat, playing a crucial role in regulating Earth’s climate."
+    },
+    {
+        question: "Why is the collapse of coral reefs a global concern?",
+        options: [
+            "A) They only affect deep-sea animals",
+            "B) They increase jellyfish populations",
+            "C) Millions depend on them for food and tourism",
+            "D) They only occur in the Atlantic Ocean"
+        ],
+        answer: "C",
+        explanation: "Millions of people depend on coral reefs for food, tourism, and coastal protection, so their collapse is a global concern."
     }
 ];
 

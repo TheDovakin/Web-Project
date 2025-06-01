@@ -5,7 +5,15 @@
 
         <title>Life Below Water - Content</title>
         <meta charset="UTF-8"> 
+        
         <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/content.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+        
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+        <script type="text/javascript" src="../js/map.js"></script>
+
         <script type="text/javascript" src="../js/main.js"></script>
         <script type="text/javascript" src="../js/content.js"></script>
 
@@ -24,11 +32,66 @@
             <a href="about.html">About Us</a>
         </nav>
         </header>
+        
             <div class="hero">
-                <h1>🌊 Life Below Water</h1>
-                <p class="hero-lead">Dive into the wonders of the ocean and meet its most fascinating creatures.</p>
-                <p class="hero-action">Click on the animals to discover their story!</p>
+            <h1>🌊 Life Below Water</h1>
+            <p class="hero-lead">Dive into the wonders of the ocean and meet its most fascinating creatures.</p>
+            <p class="hero-action">Click on the animals to discover their story!</p>
+        </div>
+
+        <section class="content-section ocean-intro">
+            <h2>Oceans: Why They Matter</h2>
+            <p>Oceans cover over <b>70% of Earth’s surface</b> and are essential to life on our planet. They produce about <b>50% of the oxygen</b> we breathe and absorb around <b>30% of CO₂ emissions</b> as well as <b>90% of the excess heat</b> caused by climate change.</p>
+            <p>They are home to millions of species, many of which are still undiscovered. Oceans also play a major role in regulating the climate and support the global economy through fishing, tourism, and transport.</p>
+        </section>
+
+        <section class="content-section ocean-threats">
+            <h2>⚠️ Why Are Oceans Endangered?</h2>
+            <ul class="threat-list">
+                <li><b>🧴 Pollution:</b> Oceans are polluted by plastic waste (bags, bottles, microplastics), oil spills, chemical runoff from farms and factories, and untreated wastewater dumped into the sea.</li>
+                <li><b>🎣 Overfishing:</b> Overfishing reduces fish populations, disrupts food chains, and destroys marine ecosystems. Some fishing methods also damage coral reefs and the sea floor.</li>
+                <li><b>🌡️ Climate Change:</b> Oceans are warming due to climate change, and absorbing more CO₂, which causes ocean acidification. This makes it harder for corals and shellfish to survive. Melting ice caps also raise sea levels and threaten coastal ecosystems.</li>
+                <li><b>🏝️ Habitat Destruction:</b> Habitats like coral reefs, mangroves, and seagrass beds are being destroyed by coastal development, pollution, and warming waters.</li>
+                <li><b>🔊 Noise Pollution:</b> Noise from ships, sonar, and industrial activities disturbs marine animals like whales and dolphins, which rely on sound to navigate and communicate.</li>
+            </ul>
+        </section>
+
+        <section class="content-section ocean-consequences">
+            <h2>💥 Consequences of Ocean Damage</h2>
+            <ul class="consequence-list">
+                <li><b>Loss of biodiversity:</b> many species are going extinct.</li>
+                <li><b>Coral reef collapse</b> affects millions who depend on reefs for food and tourism.</li>
+                <li><b>Disrupted food chains</b> — from plankton to top predators.</li>
+                <li><b>Coastal erosion and stronger storms</b> due to loss of natural barriers like mangroves.</li>
+                <li><b>Threats to global food security</b> — many people rely on fish as a main protein source.</li>
+                <li><b>Economic losses</b> in fishing, tourism, and coastal protection.</li>
+            </ul>
+        </section>
+
+        <section class="content-section ocean-solutions">
+            <h2>✅ Solutions to Protect the Oceans</h2>
+            <div class="solution-columns">
+                <div class="solution-individual">
+                    <h3>🌱 What Individuals Can Do</h3>
+                    <ul>
+                        <li>Reduce plastic use: avoid single-use bags, bottles, and straws.</li>
+                        <li>Choose sustainable seafood (look for eco-labels like MSC).</li>
+                        <li>Use eco-friendly products (like reef-safe sunscreen).</li>
+                        <li>Support local and global clean-up efforts.</li>
+                    </ul>
+                </div>
+                <div class="solution-global">
+                    <h3>🌍 What Governments and the World Can Do</h3>
+                    <ul>
+                        <li>Create more Marine Protected Areas (MPAs).</li>
+                        <li>Enforce laws against overfishing and illegal fishing.</li>
+                        <li>Invest in renewable energy to reduce emissions.</li>
+                        <li>Regulate waste disposal and industrial pollution.</li>
+                        <li>Support global agreements like the Paris Agreement and the Global Ocean Treaty.</li>
+                    </ul>
+                </div>
             </div>
+        </section>
         
           <div class="container"><div class="card-grid">
             <div class="card">
@@ -115,6 +178,9 @@
             <button class="quiz-button" onclick="location.href='quiz.html'">TEST YOUR KNOWLEDGE !</button>
         </div>
 
+        <div id="map" style="height: 400px;"></div>
+
+
         <div id="seaweed-container"></div>
 
         <div id="card-widget-modal" class="card-widget-modal" style="display:none;">
@@ -124,6 +190,8 @@
           </div>
         </div>
 
+ 
+ 
         <footer>
             <p>&copy; 2025 Life Below Water. All rights reserved.</p>
         </footer>

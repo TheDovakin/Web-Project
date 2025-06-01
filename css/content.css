@@ -1,0 +1,102 @@
+/* Content Page Styles */
+.content-section {
+    background: rgba(255,255,255,0.93);
+    border-radius: 16px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+    margin: 0 auto 32px auto;
+    max-width: 900px;
+    padding: 0px 28px 28px 28px;
+    color: #1a4a6a;
+    font-size: 1.13em;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.content-section.align-left {
+    margin-right: 15vw;
+    margin-left: auto;
+    border-left: 8px solid #00b4d8;
+    border-right: none;
+    text-align: left;
+}
+
+.content-section.align-right {
+    margin-left: 15vw;
+    margin-right: auto;
+    border-right: 8px solid #1769aa;
+    border-left: none;
+    text-align: right;
+}
+
+@media (max-width: 900px) {
+    .content-section.align-left,
+    .content-section.align-right {
+        margin-left: auto;
+        margin-right: auto;
+        border-left: 4px solid #00b4d8;
+        border-right: 4px solid #1769aa;
+        text-align: left;
+    }
+}
+
+.content-section h2 {
+    color: #1769aa;
+    font-size: 2em;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.content-section ul {
+    margin: 18px 0 0 0;
+    padding-left: 24px;
+    font-size: 1.08em;
+}
+
+.threat-list li, .consequence-list li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    padding-left: 0.5em;
+}
+
+.solution-columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-top: 18px;
+}
+
+.solution-individual, .solution-global {
+    flex: 1 1 260px;
+    background: #e3f2fd;
+    border-radius: 12px;
+    padding: 20px 18px 16px 18px;
+    box-shadow: 0 2px 8px rgba(33,150,243,0.07);
+    color: #0d3556;
+    min-width: 220px;
+}
+
+.solution-individual h3, .solution-global h3 {
+    color: #1769aa;
+    font-size: 1.18em;
+    margin-bottom: 10px;
+}
+
+.solution-individual ul, .solution-global ul {
+    padding-left: 18px;
+    margin: 0;
+}
+
+.solution-individual li, .solution-global li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+@media (max-width: 700px) {
+    .content-section {
+        padding: 18px 6vw 18px 6vw;
+    }
+    .solution-columns {
+        flex-direction: column;
+        gap: 18px;
+    }
+}

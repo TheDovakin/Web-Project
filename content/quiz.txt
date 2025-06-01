@@ -1,59 +1,57 @@
-Quiz: How Much Do You Know About Life Below Water?
-Question 1:
-Which of the following is the biggest source of ocean plastic pollution?
-A) Fishing nets
-B) Plastic bags
-C) Plastic bottles
-D) Microplastics from clothing
+1. What percentage of Earth’s surface is covered by oceans?
+A) About 50%
+B) About 60%
+C) Over 70% ✅
+D) Over 90%
 
-Correct Answer: B) Plastic bags
-Explanation: While all options contribute, plastic bags are among the most common items found in ocean cleanups and are extremely harmful to marine animals who often mistake them for food.
+2. Which critically endangered marine mammal lives only in the northern part of the Gulf of California and has fewer than 10 individuals remaining?
+A) Southern sea otter
+B) Vaquita ✅
+C) Blue whale
+D) Hawksbill turtle
 
-Question 2:
-What percentage of the Earth’s surface is covered by oceans?
-A) 50%
-B) 60%
-C) 70%
-D) 80%
+3. True or False: Oceans absorb about 90% of the excess heat caused by climate change.
+✅ True
 
-Correct Answer: C) 70%
-Explanation: Oceans cover around 71% of the Earth's surface, making them the planet’s largest ecosystem.
+4. What makes the scalloped hammerhead shark especially vulnerable to overfishing?
+A) It travels alone
+B) Its fins are highly valued in the shark fin trade ✅
+C) It is very slow
+D) It nests near the shore
 
-Question 3:
-Which of these marine animals is critically endangered?
-A) Clownfish
-B) Blue Whale
-C) Hawksbill Sea Turtle
-D) Great White Shark
-
-Correct Answer: C) Hawksbill Sea Turtle
-Explanation: Hawksbill turtles are critically endangered due to illegal shell trade, habitat loss, and plastic pollution.
-
-Question 4:
-What is coral bleaching primarily caused by?
-A) Overfishing
-B) Plastic pollution
-C) Rising ocean temperatures
+5. Which of the following is a major threat to hawksbill sea turtles?
+A) Whale hunting
+B) Coral bleaching
+C) Illegal trade of their shell for jewelry ✅
 D) Noise pollution
 
-Correct Answer: C) Rising ocean temperatures
-Explanation: Climate change leads to warmer oceans, which causes corals to expel the algae they depend on, turning white — a phenomenon called coral bleaching.
+6. Which ocean issue occurs when ships, sonar, and industrial noise disturb whales and dolphins?
+A) Thermal pollution
+B) Noise pollution ✅
+C) Algae blooms
+D) Coral bleaching
 
-Question 5:
-By what year could there be more plastic than fish in the ocean (by weight), if no action is taken?
-A) 2040
-B) 2050
-C) 2070
-D) 2100
+7. Which intelligent marine animal can reach a wingspan of 7 meters and is often caught accidentally in fishing nets?
+A) Blue whale
+B) Scalloped hammerhead shark
+C) Giant manta ray ✅
+D) Vaquita
 
-Correct Answer: B) 2050
-Explanation: According to a report by the Ellen MacArthur Foundation, by 2050, plastic could outweigh fish in the ocean if current trends continue.
+8. How do sea otters, one of the few non-human animals to use tools, crack open shellfish?
+A) With their teeth
+B) By slamming them on the seabed
+C) Using rocks ✅
+D) With their tails
 
-Scoring Suggestion:
-5 correct: Ocean Guardian — You really know your stuff.
+9. What role do oceans play in regulating Earth’s climate?
+A) They cool down the poles
+B) They reflect sunlight
+C) They store CO₂ and absorb heat ✅
+D) They create wind currents
 
-3–4 correct: Marine Ally — Good job, just a bit more learning!
+10. Why is the collapse of coral reefs a global concern?
+A) They only affect deep-sea animals
+B) They increase jellyfish populations
+C) Millions depend on them for food and tourism ✅
+D) They only occur in the Atlantic Ocean
 
-1–2 correct: Ocean Explorer — Keep learning and dive deeper.
-
-0 correct: Plastic Pirate — It’s time to change course.
