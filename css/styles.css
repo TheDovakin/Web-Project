@@ -9,7 +9,7 @@ header {
     justify-content: center;
     align-items: center;
     color: white;
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+    text-shadow: none; /* Remove text-shadow from header */
     font-family: 'Arial', sans-serif;
     text-align: center;
     padding: 40px 20px;
@@ -22,6 +22,7 @@ header {
 .site-title {
     font-size: 3em;
     margin: 0;
+    text-shadow: none; /* Remove text-shadow from .site-title */
 }
 
 body, #content {
@@ -343,7 +344,6 @@ footer {
 .hero {
   background: rgba(0, 60, 120, 0.55);
   border-radius: 18px;
-  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.18);
   padding: 36px 24px 28px 24px;
   margin: 36px auto 32px auto;
   max-width: 600px;
@@ -364,7 +364,6 @@ footer {
   background: linear-gradient(90deg, #00c6fb 0%, #005bea 100%);
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 .hero p {
   font-size: 1.22em;
@@ -467,9 +466,71 @@ footer {
   background: #fff;
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
+>>>>>>> Stashed changes
+=======
+}
+
+#about-main {
+  max-width: 700px;
+  margin: 40px auto;
+}
+.about-box {
+  background: rgba(255,255,255,0.92);
+  padding: 36px 28px 32px 28px;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.13);
+  color: #1a4a6a;
+  font-size: 1.13em;
+}
+.about-box h2 {
+  color: #1769aa;
+  font-size: 2.2em;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+}
+.about-box h3 {
+  color: #1769aa;
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+.about-box ul {
+  margin: 0 0 0 18px;
+  padding: 0 0 0 18px;
+  color: #0d3556;
+}
+.about-box section {
+  margin-bottom: 22px;
+}
+.about-box p {
+  margin: 8px 0 0 0;
+  color: #0d3556;
+}
+@media (max-width: 800px) {
+  #about-main, .about-box {
+    max-width: 98vw;
+    padding: 18px 6vw 18px 6vw;
+  }
+}
+
+footer {
+  width: 100%;
+  background: #0a2233;
+  color: #e0f7fa;
+  text-align: center;
+  padding: 24px 0 18px 0;
+  font-size: 1.08em;
+  letter-spacing: 0.5px;
+  margin-top: 48px;
+  border-top: 2px solid rgba(0, 119, 182, 0.10);
+  box-shadow: 0 -2px 12px 0 rgba(10,34,51,0.04);
+}
+footer p {
+  margin: 0;
+  color: #b2ebf2;
 >>>>>>> Stashed changes
 }
